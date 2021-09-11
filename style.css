@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans', sans-serif;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.App {
+    height: 600px;
+    margin-top: 30px;
+    color: white;
+    width: 75%;
+    background-color: rebeccapurple;
+    margin-bottom: 20px;
+    border: 1.5px solid black;
+}
+
+.header {
+    background-color: rebeccapurple;
+    height: 5%;
+    padding: 15px;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.messages {
+    width: 100%;
+    background-color: white;
+    height: 65%;
+    overflow: scroll;
+    color: black;
+    background-color: rgb(106, 14, 192);
+}
+
+.title-text {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.input {
+    padding: 20px;
+    background-color: rebeccapurple;
+}
+
+.input input {
+    height: 35px;
+    width: 50%;
+    border: 1.5px solid rebeccapurple;
+    outline: none;
+    font-size: 20px;
+}
+
+.input button {
+    height: 40px;
+    border-radius: 0px;
+    width: 120px;
+    border: 2px solid black;
+    font-size: 18px;
+    background-color: rebeccapurple;
+    cursor: pointer;
+    transition: all 0.35s linear;
+    color: white;
+}
+
+.input button:hover {
+    background-color: black;
+}
+
+.message {
+    background-color: #f1f5f8;
+    border: 1.5px solid rgb(209, 176, 176);
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
